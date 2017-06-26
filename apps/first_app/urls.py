@@ -8,6 +8,7 @@ urlpatterns = [
 
 	# for Models demo
 	url(r'^modelsDemo$', views.modelsDemo),
+	url(r'^$', views.modelsDemo),
 
 	# cRud
 	url(r'^teams$', views.listTeams, name="standings"),
